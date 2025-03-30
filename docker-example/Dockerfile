@@ -2,7 +2,7 @@
 FROM httpd:latest
 
 # Add a label for autopilot
-LABEL managed-by="autopilot"
+LABEL managed-by="autopilotlabs"
 
 # Expose port 80
 EXPOSE 80
